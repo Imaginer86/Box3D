@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e5f37d68-8d86-4530-9ea0-85d059b6996c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamics">
+      <UniqueIdentifier>{df0ebccb-452d-44b6-bb70-86bdb9032ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{f24851ec-0b98-4769-aa1f-43378e1bb583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Shapes">
+      <UniqueIdentifier>{6d7b9796-9227-45c1-bf03-11e2e08bf230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamics\Contacs">
+      <UniqueIdentifier>{c9806db8-61df-43a3-9f55-199e26f3d5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamics\Joints">
+      <UniqueIdentifier>{746cb193-dd0a-48fb-a9f3-976f287cac5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\b3Draw.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\b3Math.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\b3Settings.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BOX3D.h" />
+    <ClInclude Include="..\Common\b3BlockAllocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\Contacts\b3Contact.h">
+      <Filter>Dynamics\Contacs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\Joints\b3Joint.h">
+      <Filter>Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3Body.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3ContactManager.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3Fixture.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3TimeStep.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3World.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3WorldCallbacks.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collision\Shapes\b3Shape.h">
+      <Filter>Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collision\b3BroadPhase.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collision\b3DynamicTree.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collision\b3Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\b3StackAllocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\b3Island.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\b3Timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collision\b3TimeOfImpact.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collision\b3Distance.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\b3GrowableStack.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dynamics\Contacts\b3ContactSolver.h">
+      <Filter>Dynamics\Contacs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\b3Math.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\b3Draw.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\b3BlockAllocator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\b3Setting.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\Contacts\b3Contact.cpp">
+      <Filter>Dynamics\Contacs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\Joints\b3Joint.cpp">
+      <Filter>Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\b3ContactManager.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\b3Fixture.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\b3World.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\b3WorldCallbacks.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Collision\b3BroadPhase.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Collision\b3Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Collision\b3DynamicTree.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\b3StackAllocator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\b3Island.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\b3Timer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Collision\b3TimeOfImpact.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Collision\b3Distance.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\Contacts\b3ContactSolver.cpp">
+      <Filter>Dynamics\Contacs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamics\b3Body.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

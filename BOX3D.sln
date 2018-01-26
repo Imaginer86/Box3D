@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testbed", "Testbed\Testbed.vcxproj", "{F3754CDE-505C-4D39-A20B-EF4868F22D01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311} = {CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF} = {606F530D-CC83-7BBE-9505-1F1E01D977EF}
+		{F44A857C-E081-860D-896E-6C107584020F} = {F44A857C-E081-860D-896E-6C107584020F}
+		{154B857C-0182-860D-AA6E-6C109684020F} = {154B857C-0182-860D-AA6E-6C109684020F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLEW", "BOX3D\build\GLEW.vcxproj", "{F44A857C-E081-860D-896E-6C107584020F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFW", "BOX3D\build\GLFW.vcxproj", "{154B857C-0182-860D-AA6E-6C109684020F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMGUI", "BOX3D\build\IMGUI.vcxproj", "{606F530D-CC83-7BBE-9505-1F1E01D977EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Box3D", "BOX3D\build\Box3D.vcxproj", "{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Debug|x64.ActiveCfg = Debug|x64
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Debug|x64.Build.0 = Debug|x64
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Debug|x86.Build.0 = Debug|Win32
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Release|x64.ActiveCfg = Release|x64
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Release|x64.Build.0 = Release|x64
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Release|x86.ActiveCfg = Release|Win32
+		{F3754CDE-505C-4D39-A20B-EF4868F22D01}.Release|x86.Build.0 = Release|Win32
+		{F44A857C-E081-860D-896E-6C107584020F}.Debug|x64.ActiveCfg = Debug|x64
+		{F44A857C-E081-860D-896E-6C107584020F}.Debug|x64.Build.0 = Debug|x64
+		{F44A857C-E081-860D-896E-6C107584020F}.Debug|x86.ActiveCfg = Debug|x64
+		{F44A857C-E081-860D-896E-6C107584020F}.Release|x64.ActiveCfg = Release|x64
+		{F44A857C-E081-860D-896E-6C107584020F}.Release|x64.Build.0 = Release|x64
+		{F44A857C-E081-860D-896E-6C107584020F}.Release|x86.ActiveCfg = Release|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|x64.ActiveCfg = Debug|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|x64.Build.0 = Debug|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|x86.ActiveCfg = Debug|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|x64.ActiveCfg = Release|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|x64.Build.0 = Release|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|x86.ActiveCfg = Release|x64
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF}.Debug|x64.ActiveCfg = Debug|x64
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF}.Debug|x64.Build.0 = Debug|x64
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF}.Debug|x86.ActiveCfg = Debug|x64
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF}.Release|x64.ActiveCfg = Release|x64
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF}.Release|x64.Build.0 = Release|x64
+		{606F530D-CC83-7BBE-9505-1F1E01D977EF}.Release|x86.ActiveCfg = Release|x64
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Debug|x64.ActiveCfg = Debug|x64
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Debug|x64.Build.0 = Debug|x64
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Debug|x86.Build.0 = Debug|Win32
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Release|x64.ActiveCfg = Release|x64
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Release|x64.Build.0 = Release|x64
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Release|x86.ActiveCfg = Release|Win32
+		{CA8AE002-AADC-4B6B-B41D-CA2DF1D02311}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
